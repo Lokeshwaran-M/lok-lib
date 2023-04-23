@@ -1,0 +1,12 @@
+pyaudio
+openai-whisper
+torch
+ffmpeg-python
+tiktoken
+numba
+setuptools-rust
+openai
+gtts
+playsound
+pyttsx3
+
