@@ -2,7 +2,7 @@
 import whisper
 import sys
 
-model = whisper.load_model("tiny")
+model = whisper.load_model("tiny.en")
 
 # for only english
 def transcribe(au_path) :

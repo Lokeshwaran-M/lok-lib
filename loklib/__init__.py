@@ -6,3 +6,4 @@ from . import test
 # from . import speech_reg
 # from . import speech_senth
 # from . import gpt_2
+test.local()

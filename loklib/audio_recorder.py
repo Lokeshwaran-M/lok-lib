@@ -17,11 +17,11 @@ if not os.path.exists('./audio'):
 # Define a function to record audio for a specified amount of time and save as MP3 file
 def record_audio(duration=20):
     frames = []
-    print(f"Recording audio for {duration} seconds...")
+    # print(f"Recording audio for {duration} seconds...")
     for i in range(int(44100 / 1024 * duration)):
         data = stream.read(1024)
         frames.append(data)
-    print("Finished recording.")
+    # print("Finished recording.")
     # Save audio as WAV file
 
     current_time = datetime.datetime.now()
@@ -39,16 +39,16 @@ def record_audio(duration=20):
     os.remove(f"./audio/{au_wave_file}")
     
     au_path = f"./audio/{au_file}"
-    print(f"Audio saved as {au_file} file in path {au_path}")
+    # print(f"Audio saved as {au_file} file in path {au_path}")
     return au_path
 
 def record_audio_wav(duration=20):
     frames = []
-    print(f"Recording audio for {duration} seconds...")
+    # print(f"Recording audio for {duration} seconds...")
     for i in range(int(44100 / 1024 * duration)):
         data = stream.read(1024)
         frames.append(data)
-    print("Finished recording.")
+    # print("Finished recording.")
     # Save audio as WAV file
 
     current_time = datetime.datetime.now()
@@ -73,7 +73,7 @@ def record_audio_wav(duration=20):
 
 # Define a function to start recording audio when user types "record <duration>"
 def record(duration,format):
-    print(f"listning for {duration} seconds")
+    # print(f"listning for {duration} seconds")
     if format == "wav":
         path = record_audio_wav(duration)
     elif format== "mp3":

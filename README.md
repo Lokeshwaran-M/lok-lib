@@ -8,7 +8,7 @@ It is still under development
 
 ## JAM - AI :
 
-[JAM](https://github.com/Lokeshwaran-M/Jam-AI) is an AI assistant that I'm currently building using the lok-lob library. check out below
+[JAM](https://github.com/Lokeshwaran-M/Jam-AI) is an AI assistant that I'm currently building using the lok-lib library. check out below
 
 ```
 https://github.com/Lokeshwaran-M/Jam-AI
@@ -16,17 +16,13 @@ https://github.com/Lokeshwaran-M/Jam-AI
 
 ## Instalation :
 
-use pip and install it your local site-packages directory
+use pip and install it in your local site-packages directory
 
 ```
 pip install git+https://github.com/Lokeshwaran-M/lok-lib
 ```
 
-or Clone the repository into your project folder 
-
-```
-git clone https://github.com/Lokeshwaran-M/lok-lib
-```
+or 
 
 to add your modification and install in your local site-packages directory
 
@@ -48,21 +44,15 @@ pip install .
 
 > The documentation for each module will be updated soon
 
-```
-audio_recoder
-speech_reg
-speech_senth
-gpt_2
-model_gen
-internet
-gn_task
-
-```
 
 
 ## Requirement :
 
+use pip and download the [lok-lib](https://github.com/Lokeshwaran-M/lok-lib) in your local site-packages directory
 
+```
+pip install git+https://github.com/Lokeshwaran-M/lok-lib
+```
 ### ffmpeg audio 
 
 ```

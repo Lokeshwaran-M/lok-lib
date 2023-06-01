@@ -8,7 +8,7 @@ model_path ="gpt2"
 model = GPT2LMHeadModel.from_pretrained(model_path)
 tokenizer = GPT2Tokenizer.from_pretrained(model_path)
 
-def ans(pmt="none"):
+def res(pmt="none"):
     # Get user input
     if "stop" in pmt :
         return "stoping"
