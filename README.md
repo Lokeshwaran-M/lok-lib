@@ -1,10 +1,13 @@
 
 # lok-lib
+
 A library to power an AI digital assistant
 
 It is a Python library that I built to use for my own personal projects. It contains modules to build AI assistant and other general-purpose tools. Some modules are built from scratch while others contain dependencies on other libraries or modules, so it may break in the future. Feel free to raise an issue if you encounter any problems. 
 
 It is still under development
+
+---
 
 ## JAM - AI :
 
@@ -13,6 +16,7 @@ It is still under development
 ```
 https://github.com/Lokeshwaran-M/Jam-AI
 ```
+---
 
 ## Instalation :
 
@@ -37,6 +41,22 @@ python setup.py sdist bdist_wheel
 # run pip to move inside your local site-packages directory
 pip install .
 ```
+> edit .env config
+<details>
+ 
+<summary> config .env </summary>
+
+
+```
+EMAIL_ADDRESS="your-email-id"
+PASSWORD="pwd"
+BARDTOKEN="your-bard-tocken"
+```
+create .env file in your repo with above credentials for the BARDTOKEN see [Google Bard](https://github.com/Bavarder/googlebardpy#usage)
+
+</details>
+
+---
 
 ## DOCS :
 
@@ -44,7 +64,7 @@ pip install .
 
 > The documentation for each module will be updated soon
 
-
+---
 
 ## Requirement :
 
