@@ -20,34 +20,16 @@ https://github.com/Lokeshwaran-M/Jam-AI
 
 ## Instalation :
 
-use pip and install it in your local site-packages directory
+use pip and install in your local site-packages directory
 
 ```
 pip install git+https://github.com/Lokeshwaran-M/lok-lib
 ```
 
-or 
-
-to add your modification and install in your local site-packages directory
-
-```
-# clone in your project directory
-git clone https://github.com/Lokeshwaran-M/lok-lib
-cd lok-lib
-
-# after modification run setup.py 
-python setup.py sdist bdist_wheel
-
-# run pip to move inside your local site-packages directory
-pip install .
-```
-
-
-
 
 ## DOCS :
 
-### Modules in the library
+refere [test.ipynb](test.ipynb) for understandig library
 
 > The documentation for each module will be updated soon
 
