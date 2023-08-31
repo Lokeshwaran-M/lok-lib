@@ -11,7 +11,7 @@ setup(
     packages=find_packages(),
     install_requires=open('requirements.txt').readlines(),
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: ongoing',
         'Intended Audience :: Developers',
         'License :: MIT License',
         'Programming Language :: Python :: 3.11',

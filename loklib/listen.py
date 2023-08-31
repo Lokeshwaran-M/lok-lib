@@ -7,7 +7,7 @@ import datetime
 import sys
 
 import whisper
-model = whisper.load_model("base.en")
+model = whisper.load_model("tiny.en")
 
 import speech_recognition as sr
 r = sr.Recognizer()
@@ -68,9 +68,9 @@ def close_audio():
 
 
 
-# if __name__ == "__main__":
-#     while True:
-#         print(out(5))
+if __name__ == "__main__":
+    while True:
+        print(out(5))
    
 
 

@@ -41,22 +41,9 @@ python setup.py sdist bdist_wheel
 # run pip to move inside your local site-packages directory
 pip install .
 ```
-> edit .env config
-<details>
- 
-<summary> config .env </summary>
 
 
-```
-EMAIL_ADDRESS="your-email-id"
-PASSWORD="pwd"
-BARDTOKEN="your-bard-tocken"
-```
-create .env file in your repo with above credentials for the BARDTOKEN see [Google Bard](https://github.com/Bavarder/googlebardpy#usage)
 
-</details>
-
----
 
 ## DOCS :
 
@@ -102,29 +89,23 @@ sudo apt install espeak
 
 If there are errors with the dependencies during installation, you can try installing specific packages using the following pip commands
 
-```
+```bash
 pip install pyaudio
 
 # whisper
 pip install -U openai-whisper
-pip install git+https://github.com/openai/whisper.git 
 ## for updated version
+pip install git+https://github.com/openai/whisper.git 
+## To upgrade 
 pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 
 ## whisper dependencies
-pip install torch
-pip install ffmpeg-python
-pip install tiktoken
-pip install numba
-pip install --pre numba
-pip install setuptools-rust
+pip install torch ffmpeg-python tiktoken numba setuptools-rust
 
 pip install openai
 
 ## text to speech
-pip install gtts
-pip install playsound
-pip install pyttsx3
+pip install gtts playsound pyttsx3
 
 ```
 

@@ -1,16 +1,8 @@
-Bard==0.1
-GoogleBard==1.2.0
 gTTS==2.3.1
 openai_whisper==20230314
 playsound==1.3.0
 PyAudio==0.2.13
-python-dotenv==1.0.0
 pyttsx3==2.90
 Requests==2.31.0
-selenium==4.9.1
+setuptools==67.8.0
 SpeechRecognition==3.10.0
-torch==2.0.0
-transformers==4.28.1
-undetected_chromedriver==3.4.7
-whisper==1.1.10
-

@@ -72,7 +72,7 @@ def record_audio_wav(duration=20):
 
 
 # Define a function to start recording audio when user types "record <duration>"
-def record(duration,format):
+def record(duration,format="wav"):
     # print(f"listning for {duration} seconds")
     if format == "wav":
         path = record_audio_wav(duration)
