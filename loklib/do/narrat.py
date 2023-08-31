@@ -11,6 +11,4 @@ def chat():
         print("\nnarrating : ")
         ss.say(pmt)
 
-
-
 chat()

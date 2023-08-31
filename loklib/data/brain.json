@@ -1,0 +1,48 @@
+{
+  "word_pool": [
+    "close",
+    "alarm",
+    "play",
+    "end",
+    "weather",
+    "search",
+    "start",
+    "latest",
+    "what's",
+    "music",
+    "and",
+    "pictures",
+    "call",
+    "hello",
+    "translate",
+    "open",
+    "tell",
+    "what",
+    "to",
+    "show",
+    "next",
+    "message",
+    "news",
+    "whats",
+    "calendar",
+    "my",
+    "some",
+    "turn",
+    "between",
+    "send",
+    "me",
+    "text",
+    "remind",
+    "for",
+    "New",
+    "set",
+    "on"
+  ],
+  "wake": ["hey", "jam","jim","jump","jhon","jum"],
+  "cmd": {
+    "open": {
+      "execution": "",
+      "res": "opening"
+    }
+  }
+}

@@ -43,15 +43,3 @@ def chat():
         
         # Print the output
         print("Bot:", output)
-
-
-
-
-
-
-
-
-
-
-
-
